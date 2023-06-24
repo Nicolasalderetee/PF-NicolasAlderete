@@ -1,3 +1,6 @@
+@import "header";
+@import "footer";
+
 @media (max-width:768px) {
     .divheader {
 
@@ -24,10 +27,11 @@
         align-items: center;
 
     }
+
     .divimgnosotros {
         flex-direction: column !important;
         align-items: center;
-    
+
     }
 
     .imgnosotros {
@@ -46,16 +50,20 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .sectionproductos{
+
+    .sectionproductos {
         flex-direction: column;
     }
-    .imagesproductos{
+
+    .imagesproductos {
         width: 50% !important;
     }
-    .imgproductos{
+
+    .imgproductos {
         width: 100%;
     }
-    .divimagesproductos{
+
+    .divimagesproductos {
         flex-direction: column !important;
         align-items: center;
     }
@@ -139,110 +147,6 @@ main {
         }
     }
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: black;
-
-    .divheader {
-        display: flex;
-        justify-content: space-between;
-        margin: 30px 0px 30px 0px;
-        width: 100%;
-
-        .divlogo {
-            display: flex;
-            width: 150px;
-        }
-
-        .logo {
-            width: 100%
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-
-        .menunav {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            list-style-type: none;
-
-
-            li {
-                display: flex;
-
-                a {
-                    font-size: 18px;
-                    padding: 20px;
-                    color: rgb(200, 229, 235);
-                    text-decoration: none;
-
-                }
-
-                a:hover {
-                    color: black;
-                    background-color: rgb(231, 154, 103);
-                    border-radius: 25%;
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background: black;
-
-    .menufooter {
-        display: flex;
-        align-items: start;
-        list-style: none;
-        flex-direction: column;
-        margin: 40px 0px 40px 0px;
-
-        li {
-            padding: 5px;
-            font-size: 15px;
-
-            a {
-                color: rgb(255, 255, 255);
-                text-decoration: none;
-            }
-        }
-    }
-
-    .menufooter2 {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .navfooter {
-            color: white;
-
-            .linkfooter {
-                text-decoration: none;
-                color: white;
-                font-weight: 600;
-            }
-        }
-    }
-}
-
 
 .formu {
     width: 50%;

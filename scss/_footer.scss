@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+
+    .menufooter {
+        display: flex;
+        align-items: start;
+        list-style: none;
+        flex-direction: column;
+        margin: 40px 0px 40px 0px;
+
+        li {
+            padding: 5px;
+            font-size: 15px;
+
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+        }
+    }
+
+    .menufooter2 {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .navfooter {
+            color: white;
+
+            .linkfooter {
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+            }
+        }
+    }
+}
